@@ -1,0 +1,7 @@
+/.flatpak-builder/
+/build-dir/
+/repo/
+/package.json
+/package-lock.json
+/generated-sources.json
+*.exe
