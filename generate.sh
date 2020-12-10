@@ -31,7 +31,6 @@ npm audit fix
 jq 'del(.dependencies["notion-intl"])' package-lock.json > package-lock.json~
 mv package-lock.json{~,}
 $FLATPAK_NODE_GENERATOR --electron-node-headers npm package-lock.json
-cp generated-sources.json /tmp
 popd
 
 popd
