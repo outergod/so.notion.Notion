@@ -6,9 +6,14 @@ instructions.
 # Requirements
 
 * `curl`
+
+Needs to be on `$PATH`.
+
+When generating `package.json`, `package-lock.json` and `generated-sources.json` for a new version of Notion:
+
 * `7z`
 * `npm`
 * `npx`
 * `python3`
 
-Need to be on `$PATH`.
+need to be on `$PATH`, as well.
